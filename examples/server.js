@@ -16,6 +16,7 @@ litchi.use((ctx, next) => {
   ctx.res.setHeader('Access-Control-Allow-Origin', '*');
   ctx.res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild');
   ctx.res.setHeader('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS'); //设置方法
+  ctx.res.end(`1sdf23`)
   next();
 });
 litchi.routers = [{
