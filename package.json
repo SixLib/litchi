@@ -1,0 +1,24 @@
+{
+  "name": "litchi-node",
+  "version": "0.0.1",
+  "main": "lib/application.js",
+  "repository": "https://github.com/SixLib/litchi.git",
+  "author": "sixlib <614044401@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon main.js",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "litchi-node": "^0.0.1"
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ]
+}
