@@ -5,6 +5,8 @@ module.exports = {
     },
     'extends': 'eslint:recommended',
     'rules': {
+        'getter-return': 'warn',
+        'no-console': 'off',
         'indent': [
             'error',
             2
