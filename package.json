@@ -1,10 +1,16 @@
 {
   "name": "litchi-node",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "main": "lib/application.js",
   "repository": "https://github.com/SixLib/litchi.git",
   "author": "sixlib <614044401@qq.com>",
   "license": "MIT",
+  "keywords": [
+    "http2",
+    "web",
+    "application",
+    "frramework"
+  ],
   "scripts": {
     "serve": "nodemon examplace/server.js",
     "lint": "eslint .",

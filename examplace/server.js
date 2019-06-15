@@ -1,4 +1,4 @@
-const Litchi = require('../lib/licthi');
+const Litchi = require('../lib/application');
 const app = new Litchi();
 app.use((ctx, next) => {
   // ctx.setHeader('Access-Control-Allow-Origin', '*')
