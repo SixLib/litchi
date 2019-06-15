@@ -23,6 +23,7 @@ module.exports = {
         ],
         'curly': [
             'error', 'all'
-        ]
+        ],
+        "no-console": "off"
     }
 };
